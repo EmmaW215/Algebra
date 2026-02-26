@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app : https://algebra-ruby.vercel.app/
+View app : https://algebra-ruby.vercel.app/
 
 ## Run Locally
 
