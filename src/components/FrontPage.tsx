@@ -3,7 +3,7 @@ import { ArrowRight, BookOpen, Calculator, FunctionSquare, Grid, Hash, LineChart
 
 const units = [
   { id: 1, title: "Equations & Inequalities", icon: Variable, color: "bg-indigo-100 text-indigo-600", available: true },
-  { id: 2, title: "Units", icon: Hash, color: "bg-emerald-100 text-emerald-600", available: false },
+  { id: 2, title: "Two-step equations & Units", icon: Hash, color: "bg-emerald-100 text-emerald-600", available: true },
   { id: 3, title: "Linear Relationships", icon: LineChart, color: "bg-blue-100 text-blue-600", available: false },
   { id: 4, title: "Functions & Sequences", icon: FunctionSquare, color: "bg-purple-100 text-purple-600", available: false },
   { id: 5, title: "Exponents & Radicals", icon: X, color: "bg-orange-100 text-orange-600", available: false },
