@@ -1,12 +1,12 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="877" height="1162" alt="image" src="https://github.com/user-attachments/assets/957a0321-937b-4fdd-a6ec-5461d6b8f22f" />
 </div>
 
 # Run and deploy your AI Studio app
 
 This contains everything you need to run your app locally.
 
-View your app in AI Studio: https://ai.studio/apps/039126be-98ba-44dc-a5c5-91f4c97b7202
+View your app : [in AI Studio: https://ai.studio/apps/039126be-98ba-44dc-a5c5-91f4c97b7202](https://algebra-ruby.vercel.app/)
 
 ## Run Locally
 
