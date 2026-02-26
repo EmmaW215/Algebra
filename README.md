@@ -6,7 +6,7 @@
 
 This contains everything you need to run your app locally.
 
-View your app : https://ai.studio/apps/039126be-98ba-44dc-a5c5-91f4c97b7202](https://algebra-ruby.vercel.app/)
+View your app : https://algebra-ruby.vercel.app/
 
 ## Run Locally
 
