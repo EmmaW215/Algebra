@@ -3,15 +3,24 @@ import { AnimatePresence, motion } from "motion/react";
 import FrontPage from "./components/FrontPage";
 import Unit1 from "./components/Unit1";
 import Unit2 from "./components/Unit2";
+import Unit3 from "./components/Unit3";
+import Unit4 from "./components/Unit4";
+import Unit5 from "./components/Unit5";
 
 export default function App() {
-  const [view, setView] = useState<"home" | "unit1" | "unit2">("home");
+  const [view, setView] = useState<"home" | "unit1" | "unit2" | "unit3" | "unit4" | "unit5">("home");
 
   const handleSelectUnit = (id: number) => {
     if (id === 1) {
       setView("unit1");
     } else if (id === 2) {
       setView("unit2");
+    } else if (id === 3) {
+      setView("unit3");
+    } else if (id === 4) {
+      setView("unit4");
+    } else if (id === 5) {
+      setView("unit5");
     }
   };
 
@@ -52,6 +61,39 @@ export default function App() {
             className="absolute inset-0"
           >
             <Unit2 onBack={handleBackToHome} />
+          </motion.div>
+        )}
+        {view === "unit3" && (
+          <motion.div
+            key="unit3"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            className="absolute inset-0"
+          >
+            <Unit3 onBack={handleBackToHome} />
+          </motion.div>
+        )}
+        {view === "unit4" && (
+          <motion.div
+            key="unit4"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            className="absolute inset-0"
+          >
+            <Unit4 onBack={handleBackToHome} />
+          </motion.div>
+        )}
+        {view === "unit5" && (
+          <motion.div
+            key="unit5"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            className="absolute inset-0"
+          >
+            <Unit5 onBack={handleBackToHome} />
           </motion.div>
         )}
       </AnimatePresence>

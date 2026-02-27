@@ -4,9 +4,9 @@ import { ArrowRight, BookOpen, Calculator, FunctionSquare, Grid, Hash, LineChart
 const units = [
   { id: 1, title: "Equations & Inequalities", icon: Variable, color: "bg-indigo-100 text-indigo-600", available: true },
   { id: 2, title: "Two-step equations & Units", icon: Hash, color: "bg-emerald-100 text-emerald-600", available: true },
-  { id: 3, title: "Linear Relationships", icon: LineChart, color: "bg-blue-100 text-blue-600", available: false },
-  { id: 4, title: "Functions & Sequences", icon: FunctionSquare, color: "bg-purple-100 text-purple-600", available: false },
-  { id: 5, title: "Exponents & Radicals", icon: X, color: "bg-orange-100 text-orange-600", available: false },
+  { id: 3, title: "Linear Relationships", icon: LineChart, color: "bg-blue-100 text-blue-600", available: true },
+  { id: 4, title: "Functions & Sequences", icon: FunctionSquare, color: "bg-purple-100 text-purple-600", available: true },
+  { id: 5, title: "Exponents & Radicals", icon: X, color: "bg-orange-100 text-orange-600", available: true },
   { id: 6, title: "Quadratics", icon: Grid, color: "bg-rose-100 text-rose-600", available: false },
   { id: 7, title: "Polynomials", icon: Sigma, color: "bg-cyan-100 text-cyan-600", available: false },
   { id: 8, title: "Systems of Equations", icon: Grid, color: "bg-teal-100 text-teal-600", available: false },
