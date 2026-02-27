@@ -7,7 +7,7 @@ const units = [
   { id: 3, title: "Linear Relationships", icon: LineChart, color: "bg-blue-100 text-blue-600", available: true },
   { id: 4, title: "Functions & Sequences", icon: FunctionSquare, color: "bg-purple-100 text-purple-600", available: true },
   { id: 5, title: "Exponents & Radicals", icon: X, color: "bg-orange-100 text-orange-600", available: true },
-  { id: 6, title: "Quadratics", icon: Grid, color: "bg-rose-100 text-rose-600", available: false },
+  { id: 6, title: "Quadratics", icon: Grid, color: "bg-rose-100 text-rose-600", available: true },
   { id: 7, title: "Polynomials", icon: Sigma, color: "bg-cyan-100 text-cyan-600", available: false },
   { id: 8, title: "Systems of Equations", icon: Grid, color: "bg-teal-100 text-teal-600", available: false },
   { id: 9, title: "Transformations", icon: LineChart, color: "bg-fuchsia-100 text-fuchsia-600", available: false },
