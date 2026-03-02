@@ -7,9 +7,10 @@ import Unit3 from "./components/Unit3";
 import Unit4 from "./components/Unit4";
 import Unit5 from "./components/Unit5";
 import Unit6 from "./components/Unit6";
+import Unit7 from "./components/Unit7";
 
 export default function App() {
-  const [view, setView] = useState<"home" | "unit1" | "unit2" | "unit3" | "unit4" | "unit5" | "unit6">("home");
+  const [view, setView] = useState<"home" | "unit1" | "unit2" | "unit3" | "unit4" | "unit5" | "unit6" | "unit7">("home");
 
   const handleSelectUnit = (id: number) => {
     if (id === 1) {
@@ -24,6 +25,8 @@ export default function App() {
       setView("unit5");
     } else if (id === 6) {
       setView("unit6");
+    } else if (id === 7) {
+      setView("unit7");
     }
   };
 
@@ -108,6 +111,17 @@ export default function App() {
             className="absolute inset-0"
           >
             <Unit6 onBack={handleBackToHome} />
+          </motion.div>
+        )}
+        {view === "unit7" && (
+          <motion.div
+            key="unit7"
+            initial={{ opacity: 0, x: 50 }}
+            animate={{ opacity: 1, x: 0 }}
+            exit={{ opacity: 0, x: 50 }}
+            className="absolute inset-0"
+          >
+            <Unit7 onBack={handleBackToHome} />
           </motion.div>
         )}
       </AnimatePresence>
